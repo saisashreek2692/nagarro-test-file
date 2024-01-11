@@ -95,6 +95,25 @@ body {
   color: #383838;
   text-align: justify;
 }
+.action__Head--Footer-Pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.action__Head--Footer-Page {
+  display: inline;
+}
+.action__Head--Footer-PageLink {
+  color: #000000;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.action__Head--Footer-LinkActive {
+  background-color: #459f0b;
+  color: #fff;
+  border-radius: 5px;
+}
 .action__Cards {
   display: grid;
   grid-template-rows: auto;
