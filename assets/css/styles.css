@@ -106,8 +106,9 @@ body {
 .action__Cards--Box {
   width: 100%;
   height: max-content;
-  border: 3px outset #7f7f7f;
-  border-radius: 3px;
+  border: 1px solid #7f7f7f;
+  border-radius: 5px;
+  background-color: #eff0f0;
 }
 .action__Cards--Title {
   display: grid;
@@ -142,6 +143,23 @@ body {
 }
 .action__Cards--Icons-Trash:hover {
   color: #e44040;
+}
+.action__Cards--Info {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  margin-top: 2rem;
+}
+.action__Cards--Info-Name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.action__Cards--Info-Content {
+  font-size: 1rem;
+  font-weight: 500;
+  justify-content: start;
+  align-self: start;
 }
 
 /*# sourceMappingURL=styles.css.map */
