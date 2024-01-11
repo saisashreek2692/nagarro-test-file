@@ -1,0 +1,120 @@
+.action {
+    background-image: linear-gradient(rgba(#eff0f0, 0.1), rgba(#ffffff, 0.5));
+
+    &__Rows {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+        justify-content: space-evenly;
+        margin: 5rem 2rem;
+    }
+
+    &__Head {
+        &--Title {
+            &-1 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #459f0b;
+                text-align: justify;
+            }
+
+            &-2 {
+                font-size: 1rem;
+                font-weight: 700;
+                color: #383838;
+                text-align: justify;
+            }
+
+            &-Subtitle {
+                font-size: 1rem;
+                font-weight: 600;
+                text-align: justify;
+                color: #666666;
+            }
+
+            &-Records {
+                font-size: 1rem;
+                font-weight: 800;
+                text-align: justify;
+                color: #383838;
+            }
+        }
+
+        &--Footer {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #383838;
+            text-align: justify;
+
+            &-1 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #459f0b;
+                text-align: justify;
+            }
+
+            &-2 {
+                font-size: 1rem;
+                font-weight: 700;
+                color: #383838;
+                text-align: justify;
+            }
+        }
+    }
+
+    &__Cards {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+        justify-content: space-evenly;
+        margin: 5rem 2rem;
+
+        &--Box {
+            width: 100%;
+            height: max-content;
+            border: 3px outset #7f7f7f;
+            border-radius: 3px;
+        }
+
+        &--Title {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 5px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 1.5rem 0;
+            margin: 1rem;       
+
+            &-1 {
+                color: #459f0b;
+            }
+
+            &-2 {
+                color: #383838;
+            }
+            &-3 {
+                color: #666666;
+            }
+        }
+
+        &--Icons {
+            text-align: end;
+            &-Edit {
+                
+                color: #7f7f7f;
+                &:hover {
+                    color: #459f0b;
+                }
+            }
+            &-Trash {
+                color: #7f7f7f;
+                &:hover {
+                    color: #e44040;
+                }
+            }
+        }
+    }
+}
