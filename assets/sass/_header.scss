@@ -18,10 +18,16 @@
     }
 
     &__text {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 700;
         font-style: italic;
         text-align: end;
         padding-right: 5rem;
+
+        &--Span {
+            font-size: 1.2rem;
+            font-weight: 600;
+            font-style: normal;
+        }
     }
 }
