@@ -30,11 +30,118 @@ body {
   object-fit: contain;
 }
 .head__text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   font-style: italic;
   text-align: end;
   padding-right: 5rem;
+}
+.head__text--Span {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.action {
+  background-image: linear-gradient(rgba(239, 240, 240, 0.1), rgba(255, 255, 255, 0.5));
+}
+.action__Rows {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  justify-content: space-evenly;
+  margin: 5rem 2rem;
+}
+.action__Head--Title-1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #459f0b;
+  text-align: justify;
+}
+.action__Head--Title-2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #383838;
+  text-align: justify;
+}
+.action__Head--Title-Subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: justify;
+  color: #666666;
+}
+.action__Head--Title-Records {
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: justify;
+  color: #383838;
+}
+.action__Head--Footer {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #383838;
+  text-align: justify;
+}
+.action__Head--Footer-1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #459f0b;
+  text-align: justify;
+}
+.action__Head--Footer-2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #383838;
+  text-align: justify;
+}
+.action__Cards {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+  justify-content: space-evenly;
+  margin: 5rem 2rem;
+}
+.action__Cards--Box {
+  width: 100%;
+  height: max-content;
+  border: 3px outset #7f7f7f;
+  border-radius: 3px;
+}
+.action__Cards--Title {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1.5rem 0;
+  margin: 1rem;
+}
+.action__Cards--Title-1 {
+  color: #459f0b;
+}
+.action__Cards--Title-2 {
+  color: #383838;
+}
+.action__Cards--Title-3 {
+  color: #666666;
+}
+.action__Cards--Icons {
+  text-align: end;
+}
+.action__Cards--Icons-Edit {
+  color: #7f7f7f;
+}
+.action__Cards--Icons-Edit:hover {
+  color: #459f0b;
+}
+.action__Cards--Icons-Trash {
+  color: #7f7f7f;
+}
+.action__Cards--Icons-Trash:hover {
+  color: #e44040;
 }
 
 /*# sourceMappingURL=styles.css.map */
