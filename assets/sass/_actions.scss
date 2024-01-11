@@ -74,8 +74,9 @@
         &--Box {
             width: 100%;
             height: max-content;
-            border: 3px outset #7f7f7f;
-            border-radius: 3px;
+            border: 1px solid #7f7f7f;
+            border-radius: 5px;
+            background-color: #eff0f0;
         }
 
         &--Title {
@@ -114,6 +115,25 @@
                 &:hover {
                     color: #e44040;
                 }
+            }
+        }
+
+        &--Info {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 5px;
+            margin-top: 2rem;
+
+            &-Name {
+                font-size: 1rem;
+                font-weight: 700; 
+            }
+            &-Content {
+                font-size: 1rem;
+                font-weight: 500;
+                justify-content: start;
+                align-self: start;
             }
         }
     }
