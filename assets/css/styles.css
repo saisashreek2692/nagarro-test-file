@@ -13,4 +13,28 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+.head {
+  height: 10vh;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: linear-gradient(rgba(239, 240, 240, 0.1), #d9dcdd);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.head__items {
+  align-self: center;
+}
+.head__logo {
+  width: 100%;
+  height: 3.25rem;
+  object-fit: contain;
+}
+.head__text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+  text-align: end;
+  padding-right: 5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
