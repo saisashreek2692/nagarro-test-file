@@ -1,0 +1,27 @@
+.head {
+    height: 10vh;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: linear-gradient(rgba(#eff0f0, 0.1), rgba(#d9dcdd, 1));
+    //background-color: $bg-primary;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    &__items {
+        align-self: center;
+    }
+
+    &__logo {
+        width: 100%;
+        height: 3.25rem;
+        object-fit: contain;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-style: italic;
+        text-align: end;
+        padding-right: 5rem;
+    }
+}
